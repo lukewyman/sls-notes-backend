@@ -40,7 +40,7 @@ resources:
           - IndexName: node_id-index 
             KeySchema: 
               - AttributeName: note_id 
-                KeyType: HASH 
+                KeyType: HASH
             Projection:
               ProjectionType: ALL
             ProvisionedThroughput:
